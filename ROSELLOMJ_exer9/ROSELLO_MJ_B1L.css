@@ -1,0 +1,402 @@
+/*--Top--*/
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: #555;
+}
+
+p{
+    color: #555
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/*--Company name and tagline*/
+.col-2 h1{
+    line-height: 60px;
+    margin: 25px 0;
+    font-size: 65px;
+    color: brown;
+}
+
+#tagline{
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-2 img{
+    max-width: 90%;
+    padding: 50px 0;
+}
+
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.header{
+    background: radial-gradient(#fff,#ffd6d6);
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(8px);
+
+}
+
+.header .row{
+    margin: 60px;
+    align-items: center;
+    background-size: cover;
+}
+
+/*for featured products*/
+.prodtitle{
+    font-family: times; 
+    font-size: 30px; 
+    text-align: center;
+}
+
+#lineafter{
+    background: #ff523b;
+    width: 500px;
+    height: 5px;
+    border-radius: 5px;
+}
+
+.pics table tr td:hover{
+    transform: translateY(-5px);
+}
+
+.pics table tr td
+{
+    background-color:#EDEDED;
+    color: black;
+    text-align: center;
+    font-size: 25px;  
+    transition: 0.5s; 
+}
+
+h4{
+    font-weight: normal;
+}
+
+.rate{
+    color: orange;
+}
+
+
+/*Adverstisement*/
+.adstop{
+    background: radial-gradient(#fff,#aa9b83);
+    background-size: 100%;
+    background-attachment: fixed;
+    backdrop-filter: blur(8px);
+}
+
+.adstop .banner{
+    margin: 60px;
+    align-items: center;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content{
+    flex-basis: 50%;
+    min-width: 200px;
+}
+
+.content img{
+    max-width: 120%;
+    padding: 20px 0;
+}
+
+.visit{
+    display: inline-block;
+    background: #ff5f1f;
+    font-size: 20px;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.adstop .banner .content h1{
+    color: rgb(107, 94, 77);
+}
+
+
+/*Reviews*/
+
+.reviewtitle{
+    font-family: times; 
+    font-size: 30px; 
+    text-align: center;
+}
+
+#lineafter{
+    margin-top: 0%;
+    background: #ff523b;
+    width: 500px;
+    height: 5px;
+    border-radius: 5px;
+}
+
+.indivrev table tr td {
+    color: #555;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 30px;
+    background-color: antiquewhite;
+    transition: 0.5s;
+    border-style: outset;
+}
+
+.indivrev table tr td:hover{
+    transform: translateY(-5px); 
+}
+
+
+.indivrev table tr td img{
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.indivrev table tr td p{
+    text-align: center;
+    width: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+/*FOR THE ORDER FORM*/
+
+.odform{
+    font-family: times; 
+    font-size: 30px; 
+    text-align: center;
+}
+
+#instruction{
+    text-align: center;
+}
+
+.oform  .daform
+{
+    align-items: center;
+    font-size: 20px;
+}
+
+.oform .daform table {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: radial-gradient(rgb(204, 179, 133),rgb(228, 179, 134));
+    border-radius: 25px;
+    border-style: outset;
+    line-height: 1.8;
+}
+
+
+
+.legends{
+    font-size: 25px;
+    font-weight: bold;
+    color: #020202;
+}
+
+.legends p{
+    width:200px
+}
+
+input:required
+{
+    font-size: 15px;
+}
+
+button.buttones{
+    font-size: 20px;
+    background-color: rgb(243, 167, 54);
+    color: rgb(7, 7, 7);
+    width: 80px;
+    height: 30px;
+}
+
+
+/*For About the company*/
+.company{
+    background-color: #ffd6d6;
+    width: auto;
+    margin-top: 20px;
+    border: #ff523b;
+    border-style: groove;
+    border-radius: 20px;
+
+}
+
+.company .info{
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+h5{
+    font-family: Georgia;
+    font-size: 30px;
+    font-weight: 20px;
+}
+
+
+.info{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-indent: 20px;
+    text-justify: newspaper;
+    font-size: 20px;
+}
+
+.ordertab{
+    font-size: 25px;
+    display: inline-block;
+    background: #fdb632;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    margin-right: 600px;
+    margin-left: 600px;
+}
+
+#bulb{
+    color: rgb(212, 131, 10);
+}
+
+
+
+
+
+/*FOOTER*/
+
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 20px 0 20px;
+}
+
+.footer p{
+    color: #8a8a8a;
+}
+
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+
+}
+
+.footer-col-1{
+    flex-basis: 30%;
+}
+
+.footer-col-1 p{
+    font-size: 15px;
+}
+
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+    margin-right: 40px;
+}
+
+.footer-col-2 img{
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.footer-col-2 p{
+    font-size: 15px;
+}
+
+.footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    margin-right: 30px;
+    font-size: 17px;
+}
+
+.logos{
+    margin-top: 20px;
+}
+
+.logos img{
+    width: 120px;
+}
+
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.copyright{
+    text-align: center;
+}
+
